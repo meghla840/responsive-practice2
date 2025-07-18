@@ -25,6 +25,11 @@
     border: none;
 
 }
+p{
+     font-size: .8rem;
+    font-weight: 400;
+    color: #727272;
+}
 
 /*Header */
 header{
@@ -88,7 +93,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 130px 50px;
+    margin: 130px auto;
 }
 .teams-contain{
     display: grid;
@@ -162,4 +167,35 @@ main{
     font-size: 2rem;
     font-weight: 800;
 
+}
+/*Some Facts Section*/
+.facts{
+   margin: 120px auto;
+}
+.badge-contain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 25px;
+}
+.fact-badges{
+    border: 1px solid #FF900E;
+    padding: 10px 0px 10px;
+    width: 70%;
+    margin: 0%;
+    border-radius: 8px;
+}
+.facts h3{
+   font-size: 1.5rem;
+   font-weight: 600; 
+}
+.facts h4{
+   font-size: 1.5rem;
+   font-weight: 500; 
+}
+.facts h5{
+   font-size: .9rem;
+   font-weight: 400; 
 }
