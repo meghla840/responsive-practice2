@@ -108,3 +108,58 @@ main{
     font-size: .8rem;
     font-weight: 400;
 }
+/*Section 2 Architecture*/
+.features-girl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+}
+.features-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.features-list h2{
+    font-size: 2rem;
+    font-weight: 500;
+    border-left: 3px solid #FF900E;
+}
+
+.features-list p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+.features-list h3{
+    font-size: 1.2rem;
+    color: #131313;
+    font-weight: 500;
+}
+
+.contain div{
+    padding: 5px;
+    margin: 9px;
+    border: none;
+    background-color: white;
+    box-shadow: .01px .01px 2px #aca9a9;
+}
+
+
+.girl img{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+ .badge{
+    padding: 15px;
+    margin-top: -100px;
+}
+.badge span{
+    font-size: 2rem;
+    font-weight: 800;
+
+}
