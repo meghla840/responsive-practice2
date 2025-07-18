@@ -1,0 +1,78 @@
+/*shared design*/
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.dark1{
+    color: #131313;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 12px;
+    font-weight: 500;
+    border: none;
+
+}
+
+/*Header */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0%;
+}
+/*nav*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+nav h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+nav li{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+/* Brand New group section */
+.header-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.header-brand p{
+    font-size: .8rem;
+    font-weight: 400;
+}
+.header-brand h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: .9;
+    margin-bottom: 0%;
+}
+.header-brand img{
+    width: 50%;
+}
